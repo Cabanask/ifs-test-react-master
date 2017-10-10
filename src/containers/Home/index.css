@@ -1,0 +1,21 @@
+
+.ContainerFlexStart {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 100%;
+}
+.ContainerFlexStart30 {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 200px;
+}
+.ContainerFlexStart70 {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-left: 15px;
+	width: calc(100% - 215px);
+
+}

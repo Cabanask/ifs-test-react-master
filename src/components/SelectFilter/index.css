@@ -1,0 +1,51 @@
+.selectfilter {
+  	background-color: var(--greyMenu);
+  	display: inline-block;
+}
+.InputLabel {
+	width: 100%;
+	color: var(--white);
+	margin-top: 5px;
+	padding: 5px;
+}
+.inputStyle {
+  	border-radius: 2px;
+  	border: none;
+  	background-color: var(--greyTundora);
+  	color: var(--white);
+  	font-weight: bold;
+  	margin-top: 5px;
+  	margin: 5px;
+  	width: calc(100% - 10px);
+}
+.itemNotSelect {
+	margin-top: 5px;
+	width: 100%;	
+}
+.itemNotSelect:hover {
+	background-color: var(--greyTundora);
+}
+.itemNotSelect label{
+	color: var(--white);
+	margin-left: 15px;
+	width: calc(100% - 15px);
+	cursor: pointer;
+}
+.itemIsSelect label{
+	color: var(--white);
+	margin-left: 15px;
+	width: calc(100% - 15px);
+	cursor: pointer;
+}
+.labelListItem {
+	margin-left: 5px;
+}
+.ContainerListItem {
+	width: 100%;
+}
+.itemIsSelect {
+	background-color: var(--primaryColor);
+	margin-top: 5px;
+	width: 100%;
+	cursor: pointer;
+}
